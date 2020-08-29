@@ -54,10 +54,5 @@
         <name>localhost.localdomain-releases</name>
         <url>http://54.82.44.150:8081/artifactory/testgeneric</url>
     </repository>
- #  <snapshotRepository>
- #       <id>snapshots</id>
- #       <name>localhost.localdomain-snapshots</name>
- #       <url>http://54.82.44.150:8081/artifactory/libs-snapshot</url>
- #   </snapshotRepository>
 </distributionManagement>
 </project>
