@@ -48,11 +48,16 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
+   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>localhost.localdomain-releases</name>
-        <url>http://54.82.44.150:8081/artifactory/testgeneric</url>
+        <name>ip-172-31-19-130.ec2.internal-releases</name>
+        <url>http://18.209.9.197:8081/artifactory/libs-release</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-19-130.ec2.internal-snapshots</name>
+        <url>http://18.209.9.197:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
