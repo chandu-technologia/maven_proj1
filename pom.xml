@@ -50,14 +50,14 @@
     </build>
    <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>ip-172-31-19-130.ec2.internal-releases</name>
-        <url>http://18.209.9.197:8081/artifactory/libs-release</url>
+        <id>mvn-test</id>
+        <name>localhost.localdomain-releases</name>
+        <url>http://192.168.2.202:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-19-130.ec2.internal-snapshots</name>
-        <url>http://18.209.9.197:8081/artifactory/libs-snapshot</url>
+        <name>localhost.localdomain-snapshots</name>
+        <url>http://192.168.2.202:8081/artifactory/libs-release-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
