@@ -251,4 +251,4 @@ Here’s the completed `pom.xml` file:
 + To run this project run the following command.
 
     `java -cp target/jb-hello-world-maven-0.1.0.jar hello.HelloWorld`
-#This entry for dummy commit to trigger the jenkins job
+#This entry for dummy commit
