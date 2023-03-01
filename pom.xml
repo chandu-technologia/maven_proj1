@@ -48,16 +48,16 @@
             </plugin>
         </plugins>
     </build>
-   <distributionManagement>
-    <repository>
-        <id>mvn-test</id>
-        <name>localhost.localdomain-releases</name>
-        <url>http://192.168.2.202:8081/artifactory/libs-release-local</url>
-    </repository>
+<distributionManagement>
+      <repository>
+        <id>artifactory</id>
+        <name>HelloMaven-release</name>
+        <url>http://ec2-13-234-240-162.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-release-local</url>
+       </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>localhost.localdomain-snapshots</name>
-        <url>http://192.168.2.202:8081/artifactory/libs-release-local</url>
+          <name>HelloMaven-snapshot</name>
+          <url>http://ec2-13-234-240-162.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
